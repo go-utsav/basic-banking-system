@@ -1,0 +1,94 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: antiquewhite;
+}
+main {
+    width: 80%;
+    margin: 50px auto;
+    display: grid;
+    grid-template-rows: 60px 100px 200px 60px ;
+    grid-template-columns: repeat(2,600px);
+    grid-gap: 10px;
+}
+.brandlogo {
+    width: 100px;
+    height: 80px;
+}
+.box {
+    display: flex;
+}
+.brandlogo2 {
+    height: 600px;
+    width: 683px;
+}
+
+p.ex1{
+    font-size: 180px;
+    color: darkgreen;
+    width: 100px;
+    font-family:'Times New Roman', Times, serif;
+}
+p.ex2{
+    font-size: 120px;
+    color: darkgoldenrod;
+}
+.column1 {
+    margin: 60px;
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+
+.card{
+    background-color: rgb(230, 230, 77);
+}
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  .row1 {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row1:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the counter cards */
+  .card1 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 30px;
+    text-align: center;
+    background-color: lightseagreen;
+    border-radius: 40px;
+  }
+  
+  li.a {
+    font-size: 50px;
+
+  }
+  i{
+    padding: 5px;
+  }
+  
+  /* Responsive columns - one column layout (vertical) on small screens */
+  @media screen and (max-width: 600px) {
+    .column1 {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+
+  .footer {
+    background-color: rgb(80, 72, 72);
+    color: #f1f1f1;
+    text-align: center;
+    margin-bottom: 0%;
+    height: 50px;
+    font-size: larger;
+  }
