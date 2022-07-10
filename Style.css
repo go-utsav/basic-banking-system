@@ -1,0 +1,23 @@
+.border {
+    margin: 50px;
+    content: 20px;
+}
+
+.bodyarea {
+    background-attachment: fixed;
+    background-color: rgba(230, 230, 28, 0.368);
+}
+
+input {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 30px;
+    border: solid black 4px;
+}
+
+.Submitbtn {
+    width: 60px;
+}
